@@ -1,0 +1,1 @@
+console.log("Seja bem-vinde ao projeto 'AGENDA DIGITAL LULÁTICOS'!, aqui você poderá conhecer um pouco mais sobre o projeto e também acompanhar o desenvolvimento do mesmo.");
