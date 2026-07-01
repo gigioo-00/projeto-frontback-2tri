@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcf6f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.titulo-principal {
+  color: #ff4d8d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.caixa-avisos {
+  background-color: #ffffff;
+  border: 2px solid #ffb3d1;
+  border-radius: 15px;
+  padding: 35px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 24px rgba(255, 77, 141, 0.15);
+  box-sizing: border-box;
+}
+
+.caixa-avisos h2 {
+  color: #ff4d8d;
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.lista-aniversarios {
+  margin-bottom: 10px;
+}
+
+.item-aniversario {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  background-color: #fcf6f8;
+  border-left: 4px solid #ff4d8d;
+  border-radius: 4px 8px 8px 4px;
+}
+
+.item-aniversario .data {
+  font-weight: bold;
+  color: #bc265a;
+  min-width: 120px;
+  font-size: 15px;
+}
+
+.item-aniversario .descricao {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+}
